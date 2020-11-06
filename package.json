@@ -1,0 +1,16 @@
+{
+  "name": "curso-bootstrap",
+  "version": "1.0.0",
+  "description": "Curso de Bootstrap ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pcpisquiy@bitbucket.org/pcpisquiy/curso-bootstrap.git"
+  },
+  "author": "Pablo César Pisquiy Pacajá",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pcpisquiy/curso-bootstrap#readme"
+}
