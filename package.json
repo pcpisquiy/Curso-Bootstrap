@@ -4,7 +4,7 @@
   "description": "Curso de Bootstrap ",
   "main": "index.html",
   "scripts": {
-    "dev":"lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,11 @@
   "homepage": "https://bitbucket.org/pcpisquiy/curso-bootstrap#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "jquey": "0.0.1-security",
+    "popper.js": "^1.16.1"
   }
 }
