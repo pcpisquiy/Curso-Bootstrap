@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.jumbotron{
+    background-color: yellow;
+    color: black;
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: yellow;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.card-product{
+    flex: 1 125px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+}
+.btn-compra{
+    width: 100%;
+}

@@ -1,46 +1,159 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="jumbotron">
-        Pagina de Prueba
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <p>
-                        <h1>Texto 1</h1>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste itaque, odit error tempora fugit, vel ex esse quaerat quo nihil non iure, ea placeat at et cum illum? Repellendus, placeat.
-                    </p>
-                    <button>More info</button>
-                </div>
-                <div class="col-sm">
-                <p>
-                    <h1>Texto 2</h1>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste itaque, odit error tempora fugit, vel ex esse quaerat quo nihil non iure, ea placeat at et cum illum? Repellendus, placeat.
-                </p>
-                <button>More info</button>
-            </div>
-            <div class="col-sm">
-                <p>
-                    <h1>Texto 3</h1>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste itaque, odit error tempora fugit, vel ex esse quaerat quo nihil non iure, ea placeat at et cum illum? Repellendus, placeat.
-                </p>
-                <button>More info</button>
-            </div>
-                </div>
+        <h1>Pagina de Prueba</h1>
     </div>
-    
-    <script src="node_modules/jquery/dist/jquery-3.5.1.slim.min.js" ></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" ></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
-  </body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <p>
+                <h3>¿Donde Compro?</h3>
+                <p>
+                    Busque el producto que necesite.
+                </p>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                <h3> ¿Donde los Encuentro?</h3>
+                <p>
+                    Nos encuentra en la 7 av 10-89 zona 22 Quetzaltenango.
+                </p>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <p>
+                <h3>¿Cómo Pago?</h3>
+                <p>
+                    Efectivo o Tarjeta.
+                </p>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex flex-wrap flex-row-reverse">
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #1</h4>
+                    <p>
+                        Este es el producto número 1 y continene una muy buena calidad.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #2</h4>
+                    <p>
+                        Este es el producto número 2.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #3</h4>
+                    <p>
+                        Este es el producto número 3.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #4</h4>
+                    <p>
+                        Este es el producto número 4 y continene una muy buena calidad.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #5</h4>
+                    <p>
+                        Este es el producto número 5.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary  btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #6</h4>
+                    <p>
+                        Este es el producto número 6.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+            <div class="card-product d-flex flex-column justify-content-between">
+                <div>
+                    <h4>Producto #7</h4>
+                    <p>
+                        Este es el producto número 7.
+                    </p>
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-compra">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-sm-4  d-flex flex-column">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.Twitter.com">Twitter</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.google.com">Google+</a>
+            </div>
+            <div class="col-sm-4  d-flex flex-column">
+                <address>
+                    <h3>Oficina Central</h3>
+                    7 av 10-89 zona 22 Quetzaltenango.
+                    +502123456789
+                    pcpisquiy@gmail.com
+                </address>
+            </div>
+            <div class="col-sm-4  d-flex flex-column align-items-end">
+                <a href="http://www.facebook.com">Nosotros</a>
+                <a href="http://www.Twitter.com">Precios</a>
+                <a href="http://www.instagram.com">Terminos y condiciones</a>
+                <a href="http://www.google.com">Contacto</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery-3.5.1.slim.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+</body>
+
 </html>
