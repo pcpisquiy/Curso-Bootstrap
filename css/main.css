@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +22,15 @@ footer{
 }
 .btn-compra{
     width: 100%;
+=======
+.jumbotron{
+    background-color: yellow;
+    color:black;
+}
+
+footer{
+padding: 10px 10px 0 10px;
+    background-color: yellow;
+    margin-bottom: 0px;
+>>>>>>> d9a016a0a5abd8b00ae1c6452368e7e9bc38931a
 }
