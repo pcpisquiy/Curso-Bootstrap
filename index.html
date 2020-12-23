@@ -10,16 +10,38 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Hello, world!</title>
+    <title>Tecnosistemas</title>
 </head>
 
 <body>
+    
+    <nav  class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a href="#" class="navbar-brand">Tecnosistemas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Precios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Terminos y condiciones</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron" align="center">
         <h1>  Tecnosistemas </h1>
         <br>
         <h3>Innovando empresas con sistemas de alta tecnología </h3>
     </div>
+
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
         <div class="row">
             <div class="col-sm-4">
                 <p>
@@ -138,9 +160,9 @@
             <div class="col-sm-4  d-flex flex-column">
                 <address>
                     <h3>Oficina Central</h3>
-                    7 av 10-89 zona 22 Quetzaltenango.
-                    +502123456789
-                    pcpisquiy@gmail.com
+                    <p>av 10-89 zona 22 Quetzaltenango.</p>
+                    <p>+502123456789</p>
+                    <p>pcpisquiy@gmail.com</p>    
                 </address>
             </div>
             <div class="col-sm-4  d-flex flex-column align-items-end">
@@ -153,7 +175,7 @@
         </div>
     </footer>
 
-    <script src="node_modules/jquery/dist/jquery-3.5.1.slim.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 </body>
