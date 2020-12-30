@@ -16,12 +16,12 @@ footer{
     margin-top: 10px;
 }
 .card-product{
-    flex: 1 125px;
-    padding: 2px 5px 2px 5px;
+    flex: 1 128px;
     margin-top: 10px;
 }
 .btn-compra{
     width: 100%;
+    border-radius: 0px;
 }
 .foooter-addres-icon{
     padding-right: 10px;
