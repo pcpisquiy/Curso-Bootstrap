@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://pcpisquiy@bitbucket.org/pcpisquiy/curso-bootstrap.git"
+    "url": "git+https://github.com/pcpisquiy/Curso-Bootstrap.git"
   },
   "author": "Pablo César Pisquiy Pacajá",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/pcpisquiy/curso-bootstrap#readme",
+  "homepage": "https://github.com/pcpisquiy/Curso-Bootstrap/blob/main/readme",
   "devDependencies": {
     "lite-server": "^2.5.4",
     "node-sass": "^5.0.0"
@@ -24,6 +24,7 @@
     "jquery": "^3.5.1",
     "jquey": "0.0.1-security",
     "open-iconic": "^1.1.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.0"
   }
 }

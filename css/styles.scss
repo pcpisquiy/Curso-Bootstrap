@@ -1,23 +1,28 @@
+$blue:#1b00ff;
+$red: #dc1010;
+@mixin margenes($top,$bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
 .jumbotron{
-    background-color:blue;
+    background-color:$blue;
     color: white;
-    margin-top: 56px;
+    @include margenes(50px,0px );
 }
 
 footer{
     padding: 10px 10px 0 10px;
-    background-color:#dc1010;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    background-color:$red;
+    @include margenes(0px,10px );
 }
 .card-product{
     flex: 1 250px;
-    margin-top: 10px;
+    @include margenes(10px,0px );
 }
 .btn-compra{
     width: 100%;
@@ -27,7 +32,7 @@ footer{
     padding-right: 10px;
 }
 .tab-content{
-    margin-top: 10px;
+    @include margenes(10px,0px );
 }
 .info-carousel{
     margin-bottom: 100px;
