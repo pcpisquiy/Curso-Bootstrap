@@ -1,0 +1,44 @@
+@blue:#1b00ff;
+@red: #dc1010;
+.margenes(@top:0px,@bottom:@0px){
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.jumbotron{
+    background-color:@blue;
+    color: white;
+  .margenes(50px,0px );
+}
+
+footer{
+    padding: 10px 10px 0 10px;
+    background-color:@red;
+  .margenes(0px,10px );
+}
+.card-product{
+    flex: 1 250px;
+   .margenes(10px,0px );
+}
+.btn-compra{
+    width: 100%;
+    border-radius: 0px;
+}
+.foooter-addres-icon{
+    padding-right: 10px;
+}
+.tab-content{
+    .margenes(10px,0px );
+}
+.info-carousel{
+    .margenes(100px,0px)
+}
+.imagen-carousel{
+    width: 900px;
+    height: 470px;
+}
